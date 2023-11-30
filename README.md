@@ -6,7 +6,7 @@
 
 The field of combat robotics is extremely fascinating where different robots fight with the aim of destroying each other. The robots are developed using microcontrollers and various actuators. This project aims to develop a lightweight combat robot capable of incapacitating opponents in an actual competition. We named our robot "Agent of Chaos".
 
-<img src="https://github.com/MUmairAB/Combat-Robot/blob/main/Images/Combat%20Robot%20Example.jpg?raw=true">
+<img src="https://github.com/MUmairAB/Combat-Robot/blob/main/Images/Combat%20Robot%20Example.png?raw=true">
 
 <p align="center">Figure 1: Examples of combat robots</p>
 
@@ -54,7 +54,7 @@ The overall blueprint of the robot is shown in the following figure. The main em
 ### 5.1 Microcontroller
 - Arduino microcontroller serves as the brain of the robot, receiving and executing commands.
 
-<img src="">
+<img src="https://github.com/MUmairAB/Combat-Robot/blob/main/Images/Arduino%20UNO.png?raw=true">
 
 <p align="center">Figure 4: Arduino microcontroller</p>
 
@@ -81,14 +81,14 @@ The overall blueprint of the robot is shown in the following figure. The main em
   - Weight: 3.75 Kg
   - Dimensions: (15 x 6.5 x 9.5) cm
 
-<img src="https://github.com/MUmairAB/Combat-Robot/blob/main/Images/12V%20DC%20Battery.jpeg?raw=true">
+<img src="https://github.com/MUmairAB/Combat-Robot/blob/main/Images/12V%20DC%20Battery.png?raw=true">
 
 <p align="center">Figure 6: 12V DC battery</p>
 
 ### 5.4 Motor Driver IC
 - L298N motor driver module reverses motor polarity for directional control. It is shown in the following figure.
 
-<img src="">
+<img src="https://github.com/MUmairAB/Combat-Robot/blob/main/Images/L298N%20Motor%20Driver%20Module.png?raw=true">
 
 <p align="center">Figure 7: L298N motor driver IC </p>
 
@@ -104,7 +104,7 @@ The overall blueprint of the robot is shown in the following figure. The main em
 
 Remote control is achieved through Bluetooth using the HC-05 Bluetooth Module and an Android app (Bluetooth RC Car app).
 
-<img src="https://github.com/MUmairAB/Combat-Robot/blob/main/Images/HC-05%20Bluetooth%20Module.jpg?raw=true">
+<img src="https://github.com/MUmairAB/Combat-Robot/blob/main/Images/HC-05%20Bluetooth%20Module.png?raw=true">
 
 <p align="center">Figure 8: HC-05 Bluetooth Module</p>
 
