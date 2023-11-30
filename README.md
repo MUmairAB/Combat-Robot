@@ -1,11 +1,12 @@
 # Agent of Chaos: A Combat Robot
 
-**This repository contains the files for one of my embedded systems project that I did back in 2017.**
+**This repository contains the files for one of my embedded systems project that I did back in 2017. The [project report](https://github.com/MUmairAB/Combat-Robot/blob/main/Project%20Report.pdf) contains the detailed description of the project.**
 
 ## 1. Introduction
 
 The field of combat robotics is extremely fascinating where different robots fight with the aim of destroying each other. The robots are developed using microcontrollers and various actuators. This project aims to develop a lightweight combat robot capable of incapacitating the opponents in an actual competition. We named our robot as "Agent of Chaos".
 
+<img src="https://github.com/MUmairAB/Combat-Robot/blob/main/Images/Combat%20Robot%20Example.jpg?raw=true">
 
 ### 1.1 Weight Categories
 
@@ -36,9 +37,9 @@ The weapon is the paramount component of the robot. It provides both offensive a
 
 ## 4. Construction
 
-The overall blueprint of the robot, shown in the following figure, emphasizes lightweight design and efficient operation through an Android app.
+The overall blueprint of the robot is shown in the following figure. The main emphasis is on lightweight design and efficient operation through an Android app.
 
-<img src=''>
+<img src="https://github.com/MUmairAB/Combat-Robot/blob/main/Images/Robot%20Circuit.png?raw=true">
 
 ## 5. Electrical Specification
 
@@ -80,3 +81,9 @@ The overall blueprint of the robot, shown in the following figure, emphasizes li
 Remote control is achieved through Bluetooth using the HC-05 Bluetooth Module and an Android app (Bluetooth RC Car app).
 
 ## 8. The Final Robot
+
+The following figure shown the final robot. The overaal working of the robot can be checked through the [YouTube video].(https://www.youtube.com/shorts/3p9OxXeLEPI?t=1&feature=share)
+
+<img src="https://github.com/MUmairAB/Combat-Robot/blob/main/Images/Agent%20of%20chaos.png?raw=true">
+
+[![Video of Agent of Chaos](https://img.youtube.com/vi/3p9OxXeLEPI/1.jpg)](https://www.youtube.com/shorts/3p9OxXeLEPI?feature=share)
