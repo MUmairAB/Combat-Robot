@@ -1,0 +1,96 @@
+/*
+ This code can be used to operate a two-wheeled robot using Arduino through
+ HC-05 Bluetooth Module and an Android app.
+ 
+ Created in: 2017
+ Created by: Umair Akram
+ */
+
+// Declare the pins; We will use the pins 9 to 12.
+int motor1a = 9;
+int motor1b = 10;
+int motor2a = 11;
+int motor2b = 12;
+// Instantiate a variable to store the data received from the bluetooth app
+char bluetooth_data;
+
+void setup() {
+  // put your setup code here, to run once:
+
+  // Set all the motor pins as Output Pins
+  pinMode(motor1a, OUTPUT); 
+  pinMode(motor1b, OUTPUT);
+  pinMode(motor2a, OUTPUT);
+  pinMode(motor2b, OUTPUT);
+
+  // Open the serial port, and set the data rate to 9600 bps
+  Serial.begin(9600);
+}
+
+void loop(){
+  // put your main code here, to run repeatedly:
+
+  //Check if bluetooth data is available, then read it
+  while (Serial.available() > 0)
+  {
+  bluetooth_data = Serial.read();
+  Serial.println(bluetooth_data);
+  }
+
+  // Move Forward
+  if(bluetooth_data == 'F')
+    {
+      digitalWrite(motor1a, HIGH);
+      digitalWrite(motor1b, LOW);
+      digitalWrite(motor2a, HIGH);
+      digitalWrite(motor2b, LOW);  
+    }
+  else if(bluetooth_data == 'B') // Backward
+    {
+      digitalWrite(motor1a, LOW);
+      digitalWrite(motor1b, HIGH);
+      digitalWrite(motor2a, LOW);
+      digitalWrite(motor2b, HIGH); 
+    }
+  
+  else if(bluetooth_data == 'L') //Left
+    {
+    digitalWrite(motor1a, LOW);
+    digitalWrite(motor1b, LOW);
+    digitalWrite(motor2a, HIGH);
+    digitalWrite(motor2b, LOW);
+    }
+
+  else if(bluetooth_data == 'H') //Backward Left
+    {
+    digitalWrite(motor1a, LOW);
+    digitalWrite(motor1b, LOW);
+    digitalWrite(motor2a, LOW);
+    digitalWrite(motor2b, HIGH); 
+    }
+
+  else if(bluetooth_data == 'R') //Right
+    {
+    digitalWrite(motor1a, HIGH);
+    digitalWrite(motor1b, LOW);
+    digitalWrite(motor2a, LOW);
+    digitalWrite(motor2b, LOW); 
+    }
+
+  else if(bluetooth_data == 'J') //Backward Right
+    {
+    digitalWrite(motor1a, LOW);
+    digitalWrite(motor1b, HIGH);
+    digitalWrite(motor2a, LOW);
+    digitalWrite(motor2b, LOW);
+    }
+    
+  else if(bluetooth_data == 'S') //Stop
+    {
+    digitalWrite(motor1a, LOW);
+    digitalWrite(motor1b, LOW);
+    digitalWrite(motor2a, LOW);
+    digitalWrite(motor2b, LOW); 
+    }
+  
+}
