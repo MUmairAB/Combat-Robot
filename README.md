@@ -1,12 +1,14 @@
 # Agent of Chaos: A Combat Robot
 
-**This repository contains the files for one of my embedded systems project that I did back in 2017. The [project report](https://github.com/MUmairAB/Combat-Robot/blob/main/Project%20Report.pdf) contains the detailed description of the project.**
+**This repository contains the files for one of my embedded systems projects that I did back in 2017. The [project report](https://github.com/MUmairAB/Combat-Robot/blob/main/Project%20Report.pdf) contains a detailed description of the project.**
 
 ## 1. Introduction
 
-The field of combat robotics is extremely fascinating where different robots fight with the aim of destroying each other. The robots are developed using microcontrollers and various actuators. This project aims to develop a lightweight combat robot capable of incapacitating the opponents in an actual competition. We named our robot as "Agent of Chaos".
+The field of combat robotics is extremely fascinating where different robots fight with the aim of destroying each other. The robots are developed using microcontrollers and various actuators. This project aims to develop a lightweight combat robot capable of incapacitating opponents in an actual competition. We named our robot "Agent of Chaos".
 
 <img src="https://github.com/MUmairAB/Combat-Robot/blob/main/Images/Combat%20Robot%20Example.jpg?raw=true">
+
+<p align="center">Figure 1: Examples of combat robots</p>
 
 ### 1.1 Weight Categories
 
@@ -30,7 +32,11 @@ The cornerstone of this project is to design a combat robot capable of incapacit
 The weapon is the paramount component of the robot. It provides both offensive and defensive capabilities. "Agent of Chaos" employs a grinder and a passive flipper as primary weapons, ensuring versatility in combat.
 
 ### 3.1 Grinder
-- Cordless drill motor with a five-inch blade for crushing opponents.
+- Cordless drill motor with a five-inch blade for crushing opponents. The following figure shows the motor.
+
+<img src="https://github.com/MUmairAB/Combat-Robot/blob/main/Images/DC%20Motor%20For%20Grinder%20Drill.png?raw=true">
+
+<p align="center">Figure 2: Cordless drill motor</p>
 
 ### 3.2 Passive Flipper
 - Flips over opponents, providing both offensive and defensive capabilities.
@@ -41,13 +47,23 @@ The overall blueprint of the robot is shown in the following figure. The main em
 
 <img src="https://github.com/MUmairAB/Combat-Robot/blob/main/Images/Robot%20Circuit.png?raw=true">
 
+<p align="center">Figure 3: Circuit diagram of the robot</p>
+
 ## 5. Electrical Specification
 
 ### 5.1 Microcontroller
 - Arduino microcontroller serves as the brain of the robot, receiving and executing commands.
 
+<img src="">
+
+<p align="center">Figure 4: Arduino microcontroller</p>
+
 ### 5.2 DC Motor
-- This robot is a four-wheel combat robot. The rear wheels are bigger and mainly control the movement of the robot. They are powered by brushed DC motors for controlled movement.
+- This robot is a four-wheel combat robot. The rear wheels are bigger and mainly control the movement of the robot. They are powered by brushed DC motors for controlled movement. The following figure illustrates the DC motor.
+
+<img src="https://github.com/MUmairAB/Combat-Robot/blob/main/Images/DC%20Motor.jpg?raw=true"> 
+
+<p align="center">Figure 5: 12V DC motor</p>
 
 - Specifications of the DC motor:
   - Diameter: 3.1 in.
@@ -65,25 +81,37 @@ The overall blueprint of the robot is shown in the following figure. The main em
   - Weight: 3.75 Kg
   - Dimensions: (15 x 6.5 x 9.5) cm
 
+<img src="https://github.com/MUmairAB/Combat-Robot/blob/main/Images/12V%20DC%20Battery.jpeg?raw=true">
+
+<p align="center">Figure 6: 12V DC battery</p>
+
 ### 5.4 Motor Driver IC
-- L298N motor driver module reverses motor polarity for directional control.
+- L298N motor driver module reverses motor polarity for directional control. It is shown in the following figure.
+
+<img src="">
+
+<p align="center">Figure 7: L298N motor driver IC </p>
 
 ## 6. Mechanical Specifications
 
 ### 6.1 Wheels
-- This robot is a four-wheel combat robot. The larger rear rear wheels (six inches in diameter) control the robot movement. While The front wheels are swivel casters and move freely.
+- This robot is a four-wheel combat robot. The larger rear wheels (six inches in diameter) control the robot's movement. While The front wheels are swivel casters and move freely.
 
 ### 6.2 Body
-- Initially we used steel for the body of the robot. Later on, due to weight constraints, we replaced it with a combination of steel and lightweight fiberglass to meet the 25kg category constraint.
+- Initially, we used steel for the body of the robot. Later on, due to weight constraints, we replaced it with a combination of steel and lightweight fiberglass to meet the 25kg category constraint.
 
 ## 7. Bluetooth Control
 
 Remote control is achieved through Bluetooth using the HC-05 Bluetooth Module and an Android app (Bluetooth RC Car app).
 
+<img src="https://github.com/MUmairAB/Combat-Robot/blob/main/Images/HC-05%20Bluetooth%20Module.jpg?raw=true">
+
+<p align="center">Figure 8: HC-05 Bluetooth Module</p>
+
 ## 8. The Final Robot
 
-The following figure shown the final robot. The overaal working of the robot can be checked through the [YouTube video].(https://www.youtube.com/shorts/3p9OxXeLEPI?t=1&feature=share)
+The following figure shows the final robot. The overall working of the robot can be checked through the [YouTube video](https://www.youtube.com/shorts/3p9OxXeLEPI?t=1&feature=share).
 
 <img src="https://github.com/MUmairAB/Combat-Robot/blob/main/Images/Agent%20of%20chaos.png?raw=true">
 
-[![Video of Agent of Chaos](https://img.youtube.com/vi/3p9OxXeLEPI/1.jpg)](https://www.youtube.com/shorts/3p9OxXeLEPI?feature=share)
+<p align="center">Figure 9: Agent of Chaos: A Combat Robot</p>
